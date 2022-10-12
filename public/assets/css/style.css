@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    background-color: #f1f1f1;
+}
+
+header{
+    background-color: #FFF;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 1px 6px grey;
+    z-index: 2;
+}
+
+#logo{
+    float: left;
+    width: 13%;
+    height: 90px;
+    background-color: #79ffd2   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 1px 6px gray;
+}
+
+#titulo{
+    width: 61%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navArea{
+    float: left;
+    width: 13%;;
+    height: 100%;
+    background-image: linear-gradient(#7FFFD4, #E0FFFF);
+    position: fixed;
+    z-index: 0;
+    box-shadow: 0px 1px 6px gray;
+}
+
+.navLinks{
+    list-style: none;
+    padding: 60px 0 0 35px;
+}
+
+.navLinks li{
+    padding: 30px 0;
+}
+
+.navLinks li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: #E066FF;
+}
+
+#qrLink, #presenceLink{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.conteudo{
+    clear: both;
+}
+
+#table-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabela{
+    width: 75%;
+    height: 700px;
+    background-color: #FFF;
+    margin: 80px 0 80px 250px;
+    border-radius: 18px;
+    box-shadow: 0 1px 4px grey;
+}
+
+.header{
+    width: 100%;
+    height: 45px;
+    background-image: linear-gradient(#7FFFD4, #E0FFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px 18px 0 0;
+}
+
+#table{
+   padding: 50px;
+}
